@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_1
+      name: Walk1
       rect:
         serializedVersion: 2
         x: 20
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_2
+      name: Walk2
       rect:
         serializedVersion: 2
         x: 37
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_8
+      name: Jump1
       rect:
         serializedVersion: 2
         x: 144
@@ -1414,8 +1414,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Jump1: 1284406297
       Sprite_Mario_0: 1665120708
-      Sprite_Mario_1: -521517061
       Sprite_Mario_10: -93458498
       Sprite_Mario_11: 219843556
       Sprite_Mario_12: -867128731
@@ -1426,7 +1426,6 @@ TextureImporter:
       Sprite_Mario_17: -1832141194
       Sprite_Mario_18: -1854714026
       Sprite_Mario_19: -1287794081
-      Sprite_Mario_2: -1953223002
       Sprite_Mario_20: -422047842
       Sprite_Mario_21: -346148381
       Sprite_Mario_22: 1993788213
@@ -1473,8 +1472,9 @@ TextureImporter:
       Sprite_Mario_6: -599114301
       Sprite_Mario_60: 1437897196
       Sprite_Mario_7: -1636121309
-      Sprite_Mario_8: 1284406297
       Sprite_Mario_9: 1490493020
+      Walk1: -521517061
+      Walk2: -1953223002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
