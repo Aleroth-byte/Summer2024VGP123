@@ -398,7 +398,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &443678890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -693,7 +693,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 993686922}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 260dee3ac4a7d83448ee71c12ef7dd01, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 1020090709}
   - component: {fileID: 1020090711}
   - component: {fileID: 1020090710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +940,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1413285228}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 260dee3ac4a7d83448ee71c12ef7dd01, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1094,7 +1094,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1640039271}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 260dee3ac4a7d83448ee71c12ef7dd01, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1171,7 +1171,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1763097702}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 260dee3ac4a7d83448ee71c12ef7dd01, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1293,7 +1293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932091127}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
