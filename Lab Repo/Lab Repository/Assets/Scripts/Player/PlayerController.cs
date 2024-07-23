@@ -11,6 +11,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Boolean isGrounded = false;
+
     
     //Movement
     [SerializeField, Range (1, 20)]
@@ -74,6 +75,9 @@ public class PlayerController : MonoBehaviour
         else
             isGrounded = IsGrounded();
 
+       
+
+
 
         float hInput = Input.GetAxis("Horizontal");
 
@@ -90,6 +94,19 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("hInput", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);
+        if (Input.GetButtonDown("Fire1") && isGrounded)
+        {
+            anim.SetTrigger("aInput");
+        }
+
+
+        if (Input.GetButtonDown("Fire1") && !isGrounded)
+        {
+            anim.SetTrigger("AirInput");
+        }
+
+
+
 
         bool IsGrounded()
         {

@@ -627,7 +627,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_24
+      name: Air1
       rect:
         serializedVersion: 2
         x: 0
@@ -648,7 +648,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_25
+      name: Air2
       rect:
         serializedVersion: 2
         x: 26
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_26
+      name: Air3
       rect:
         serializedVersion: 2
         x: 57
@@ -690,7 +690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_27
+      name: Air4
       rect:
         serializedVersion: 2
         x: 93
@@ -711,7 +711,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_28
+      name: Attack1
       rect:
         serializedVersion: 2
         x: 124
@@ -732,7 +732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_29
+      name: Attack2
       rect:
         serializedVersion: 2
         x: 148
@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_30
+      name: Attack3
       rect:
         serializedVersion: 2
         x: 170
@@ -1414,6 +1414,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Air1: -1924774489
+      Air2: -1206358981
+      Air3: -2099034284
+      Air4: 1734185565
+      Attack1: 370534316
+      Attack2: -1325728782
+      Attack3: 1181240706
       Jump1: 1284406297
       Sprite_Mario_0: 1665120708
       Sprite_Mario_10: -93458498
@@ -1430,14 +1437,7 @@ TextureImporter:
       Sprite_Mario_21: -346148381
       Sprite_Mario_22: 1993788213
       Sprite_Mario_23: 420990058
-      Sprite_Mario_24: -1924774489
-      Sprite_Mario_25: -1206358981
-      Sprite_Mario_26: -2099034284
-      Sprite_Mario_27: 1734185565
-      Sprite_Mario_28: 370534316
-      Sprite_Mario_29: -1325728782
       Sprite_Mario_3: 1502876897
-      Sprite_Mario_30: 1181240706
       Sprite_Mario_31: 582044737
       Sprite_Mario_32: -1593677929
       Sprite_Mario_33: -429549881
