@@ -131,7 +131,7 @@ TextureImporter:
         width: 5113
         height: 431
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,6 +139,90 @@ TextureImporter:
       bones: []
       spriteID: b1509cf66bfb9334c951b1a282a3f8eb
       internalID: -2090097379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 146
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55e8de527334904bbcfc400f768699f
+      internalID: -1554421524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 116
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d482c373d8ef84aaaa121c70c8a8e5
+      internalID: 1705016481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Live
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a415f290fc95e2b4b92082110385e4c2
+      internalID: -1493132230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 138
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383fb68cb63064a438dc9e2ad882eed9
+      internalID: 1387667166
       vertices: []
       indices: 
       edges: []
@@ -154,7 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Coin: 1387667166
+      Jump: 1705016481
       Level: -2090097379
+      Live: -1493132230
+      Speed: -1554421524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
