@@ -26,6 +26,10 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Power"))
         Destroy (this.gameObject);
+
+        if (other.gameObject.CompareTag("Enemy"))
+            Destroy(gameObject);
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

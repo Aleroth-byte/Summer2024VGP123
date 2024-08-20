@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Power
   - Floor
+  - Barrier
+  - Squish
+  - Enemy
   layers:
   - Default
   - TransparentFX
