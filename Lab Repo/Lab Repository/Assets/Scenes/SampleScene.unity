@@ -494,7 +494,7 @@ Transform:
   m_GameObject: {fileID: 443678886}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.03, y: -1.52, z: 0}
+  m_LocalPosition: {x: 4.37, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xVel: 5.13
-  yVel: 4.01
+  yVel: 0
   spawnPointLeft: {fileID: 1541729754}
   spawnPointRight: {fileID: 1741306628}
   projectilePrefab: {fileID: -6069440842766995988, guid: 305538059a6025d4f912eb754cef9dcb, type: 3}
@@ -2300,7 +2300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xVel: 5.52
-  yVel: 4.06
+  yVel: 0
   spawnPointLeft: {fileID: 1100083969}
   spawnPointRight: {fileID: 371602943}
   projectilePrefab: {fileID: 8520582482865759297, guid: 0b892870436c93c4e91daa488c9837e0, type: 3}

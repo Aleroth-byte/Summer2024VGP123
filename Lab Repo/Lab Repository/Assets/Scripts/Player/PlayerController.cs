@@ -210,7 +210,7 @@ public class PlayerController : MonoBehaviour
         {
             collision.gameObject.GetComponentInParent<Enemy>().TakeDamage(9999);
             rb.velocity = Vector2.zero;
-            rb.AddForce(Vector2.up * jumpForce * speed, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up *(jumpForce), ForceMode2D.Impulse);
         }
     }
 }

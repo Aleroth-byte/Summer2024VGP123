@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyTurret : Enemy
@@ -12,6 +13,7 @@ public class EnemyTurret : Enemy
     // Start is called before the first frame update
     public override void Start()
     {
+
         base.Start();
 
         if (projectileFireRate <= 0)
@@ -23,13 +25,25 @@ public class EnemyTurret : Enemy
     {
         AnimatorClipInfo[] curPlayingClips = anim.GetCurrentAnimatorClipInfo(0);
 
+        float distance = Vector3.Distance(GameObject.Find("Player").transform.position,GameObject.Find("Turret").transform.position);
+
         if (curPlayingClips[0].clip.name.Contains("Idle"))
         {
-            if (Time.time >= timeSinceLastFire + projectileFireRate)
+            if (Time.time >= timeSinceLastFire + projectileFireRate && distance <= 6.0f)
             {
                 anim.SetTrigger("Fire");
                 timeSinceLastFire = Time.time;
             }
         }
+
+        if (GameObject.Find("Player").transform.position.x < GameObject.Find("Turret").transform.position.x)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
+
     }
 }
